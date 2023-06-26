@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after {
+    --rosa-escuro: #80156b;
+    --rosa-medio: #be39ac;
+    --rosa-claro: rgb(253, 233, 250);
+    --cinza-texto: #444444;
+    --cinza-claro: #ECECEC;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: var(--rosa-claro);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    font-size: 14px;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* ESTILOS DO HEADER */
+body > header {
+    height: 80px;
+}
+
+.cabecalho {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    padding: 0 15px;
+    z-index: 2;
+}
+
+.logo {
+    background-image: url(../img/cabecalho/Logo.png);
+    background-repeat: no-repeat;
+    padding: 15px 65px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+
+.cabecalho__veiculos {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 10%;
+    background-color: var(--rosa-escuro);
+}
+.cabecalho__perfil {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 10%;
+    background-color: var(--rosa-escuro);
+
+}
+.cabecalho__sair {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 10%;
+    background-color: var(--rosa-escuro);
+
+}
+
+/* ESTILOS DA SEÇÃO VEICULO */
+
+.vehicles__container {
+    color: black;
+}
+
+.mensagem {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mensagem__imagem {
+    width: 30%;
+}
+
+.mensagem__titulo {
+    color: var(--rosa-medio);
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.pesquisar__input {
+    width: 260px;
+    height: 32px;
+    border: 1px solid rgb(211, 211, 211);
+    font-size: 16px;
+    padding: 3px 8px;
+    border: 1px solid rgb(211, 211, 211);
+    color: var(--rosa-escuro);
+}
+
+.pesquisar__botao {
+    background-image: url(img/cabecalho/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid rgb(211, 211, 211);
+    background-color: #F9F9F9;
+    border-left: none;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+@media(min-width: 834px) {
+
+    body {
+        height: 100vh;
+    }
+
+}
+.formulario__box__erro{
+    padding-top: 10px;
+    background-color: rgb(50,50,10,20%);
+}
+
+.formulario__titulo__erro{
+    color: #dea73e;
+    opacity: 1;
+    font-size: 25px;
+    font-family: fantasy;
+}
