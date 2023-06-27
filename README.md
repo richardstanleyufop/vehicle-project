@@ -13,7 +13,7 @@ Para ativar um servidor local, na pasta do projeto digite:
 ```
 php -S localhost:8080 -t public/
 ```
-Próximas etapas
+Próximas etapas:
 Criação do relacionamento no banco entre veiculos e usuários;
 Modificar os controllers para que utilizem psr/http-message;
 Criação das views de compra e venda de veículos;
