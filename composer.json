@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Estudo\\Projeto\\": "src/"
+    }
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
