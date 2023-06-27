@@ -17,7 +17,7 @@ body {
     height: 100vh;
     overflow: auto;
     font-size: 14px;
-    color: white;
+    color: red;
     box-sizing: border-box;
     text-align: center;
 }
